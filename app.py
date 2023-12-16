@@ -24,8 +24,9 @@ st.set_page_config(
     layout="wide"
 )
 
-df= connect_db()
+df= pd.read_csv('my_db.csv')
 
+df.head()
 
 # fill category column with mode
 category_data = ['Start','End','Last Location Name', 'Handset Manufacturer','Handset Type']

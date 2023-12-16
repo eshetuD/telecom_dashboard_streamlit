@@ -16,5 +16,9 @@ def connect_db():
     # str or SQLAlchemy Selectable (select or text object)
     sql_query = 'SELECT * FROM xdr_data'
 
-    df = pd.read_sql(sql_query, con= engine)
-    return df
+    df1 = pd.read_sql(sql_query, con= engine)
+    return df1
+
+df= pd.read_csv('my_db.csv')
+
+df.head()
