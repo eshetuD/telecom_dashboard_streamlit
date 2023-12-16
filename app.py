@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.express as px
 from streamlit_card import card
+import psycopg2
 
 from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler

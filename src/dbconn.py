@@ -1,6 +1,7 @@
 import pandas as pd
 from sqlalchemy import create_engine
 import streamlit as st
+import psycopg2
 
 database_name = 'telecom'
 table_name= 'xdr_data'
